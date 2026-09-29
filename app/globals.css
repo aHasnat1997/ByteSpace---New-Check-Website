@@ -296,3 +296,12 @@
   margin-inline: auto;
   width: 100%;
 }
+
+@utility grid-background {
+  --grid-size: 120px;
+  --grid-color: rgba(255, 255, 255, 0.15);
+  background-size: var(--grid-size) var(--grid-size);
+  background-image:
+    linear-gradient(to right, var(--grid-color) 2px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-color) 2px, transparent 1px);
+}
