@@ -5,11 +5,13 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { Metadata } from "next"
+import Navigation from "@/components/nav&footer/navigation"
+import Footer from "@/components/nav&footer/footer"
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins"
+  variable: "--font-poppins",
 })
 
 const satoshi = localFont({
@@ -21,7 +23,7 @@ const satoshi = localFont({
     {
       path: "../public/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-VariableItalic.woff2",
       style: "italic",
-    }
+    },
   ],
   variable: "--font-satoshi",
 })
@@ -56,8 +58,12 @@ export default function RootLayout({
         clashDisplay.variable
       )}
     >
-      <body cz-shortcut-listen="true">
-        <ThemeProvider>{children}</ThemeProvider>
+      <body cz-shortcut-listen="true" className="w-full">
+        <ThemeProvider>
+          <Navigation />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   )

@@ -192,16 +192,42 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-400) var(--primary-700);
+  }
+
+  html {
+    @apply font-sans;
   }
 
   body {
     @apply bg-background text-foreground;
   }
 
-  html {
-    @apply font-sans;
+  ::-webkit-scrollbar {
+    width: 5px;
   }
+
+  ::-webkit-scrollbar-track {
+    background: var(--primary-700);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary-400);
+    border: 2px solid var(--primary-700);
+    border-radius: 999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-300);
+  }
+}
+
+@utility section-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px 0 122px;
 }
 
 @utility heading-l {
