@@ -1,15 +1,34 @@
-import { Geist, Geist_Mono } from "next/font/google"
+import { Poppins } from "next/font/google"
+import localFont from "next/font/local"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { Metadata } from "next"
 
-const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
-
-const fontMono = Geist_Mono({
+const poppins = Poppins({
   subsets: ["latin"],
-  variable: "--font-mono",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins"
+})
+
+const satoshi = localFont({
+  src: [
+    {
+      path: "../public/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff2",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-VariableItalic.woff2",
+      style: "italic",
+    }
+  ],
+  variable: "--font-satoshi",
+})
+
+const clashDisplay = localFont({
+  src: "../public/fonts/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.woff2",
+  variable: "--font-clash-display",
 })
 
 export const metadata: Metadata = {
@@ -32,9 +51,9 @@ export default function RootLayout({
       suppressHydrationWarning
       className={cn(
         "antialiased",
-        fontMono.variable,
-        "font-sans",
-        geist.variable
+        poppins.variable,
+        satoshi.variable,
+        clashDisplay.variable
       )}
     >
       <body cz-shortcut-listen="true">
