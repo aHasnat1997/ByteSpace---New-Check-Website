@@ -75,7 +75,7 @@ export default function Search({
         {inputType === "global"
           ? "Search"
           : inputType === "courses"
-            ? "Search"
+            ? "Courses"
             : "Search "}
       </Button>
     </form>

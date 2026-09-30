@@ -8,9 +8,9 @@ import BrandThree from "@/svgs/brand-3.svg"
 import BrandFour from "@/svgs/brand-4.svg"
 import BrandFive from "@/svgs/brand-5.svg"
 
-export default function Page() {
+export default function HomePage() {
   return (
-    <>
+    <main>
       <section className="h-[105vh] overflow-hidden bg-primary-700 grid-background p-12">
         <Hero />
       </section>
@@ -38,6 +38,6 @@ export default function Page() {
       <section>
         <Testimonial />
       </section>
-    </>
+    </main>
   )
 }
