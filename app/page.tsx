@@ -1,3 +1,4 @@
+import About from "@/components/home/about"
 import Courses from "@/components/home/courses"
 import Hero from "@/components/home/hero"
 import BrandOne from "@/svgs/brand-1.svg"
@@ -26,6 +27,12 @@ export default function Page() {
       <div className="section-container pt-18">
         <Courses />
       </div>
+
+      <div className="pt-30">
+        <About />
+      </div>
+
+      <div className="h-122 bg-primary-700 grid-background"></div>
     </>
   )
 }

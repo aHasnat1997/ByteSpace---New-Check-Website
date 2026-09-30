@@ -322,6 +322,15 @@
   font-weight: 500;
 }
 
+@utility display-xs {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.36px;
+}
+
 @utility design-grid {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
