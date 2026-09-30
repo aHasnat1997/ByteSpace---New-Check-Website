@@ -1,6 +1,7 @@
 import About from "@/components/home/about"
 import Courses from "@/components/home/courses"
 import Hero from "@/components/home/hero"
+import Testimonial from "@/components/home/testimonial"
 import BrandOne from "@/svgs/brand-1.svg"
 import BrandTwo from "@/svgs/brand-2.svg"
 import BrandThree from "@/svgs/brand-3.svg"
@@ -33,6 +34,10 @@ export default function Page() {
       </div>
 
       <div className="h-122 bg-primary-700 grid-background"></div>
+
+      <div>
+        <Testimonial />
+      </div>
     </>
   )
 }

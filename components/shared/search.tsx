@@ -76,7 +76,7 @@ export default function Search({
           ? "Search"
           : inputType === "courses"
             ? "Search"
-            : "Subscribe"}
+            : "Search "}
       </Button>
     </form>
   )
