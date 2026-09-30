@@ -286,6 +286,14 @@
   font-weight: 400;
 }
 
+@utility label-xl {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
 @utility label-l {
   font-family: var(--font-sans);
   font-size: 18px;

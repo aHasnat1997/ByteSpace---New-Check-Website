@@ -2,31 +2,12 @@ import Image from "next/image"
 import Link from "next/link"
 import BarChart from "@/svgs/signal_cellular_alt.svg"
 import Star from "@/svgs/Style=Outlined-8.svg"
-
-type Instructor = {
-  name: string
-  image: string
-}
-
-type ProductCardProps = {
-  image: string
-  title: string
-  instructor: string
-  instructorHref: string
-  level: string
-  lessons: number
-  duration: string
-  comments: number
-  rating: number
-  price: number
-  instructors: Instructor[]
-  href: string
-}
+import { TProductCardProps } from "@/types/product.type"
 
 export default function ProductCard({
   payload,
 }: {
-  payload: ProductCardProps
+  payload: TProductCardProps
 }) {
   return (
     <article className="w-full max-w-105 rounded-[24px] border border-neutral-200 bg-white p-4">
@@ -40,24 +21,26 @@ export default function ProductCard({
             sizes="(max-width: 768px) 100vw, 420px"
           />
 
-          <div className="absolute inset-x-3.25 bottom-4 flex items-center justify-between gap-2">
-            <span className="rounded-full bg-white/35 px-4 py-2 label-xs backdrop-blur-sm">
-              {payload.lessons} Lessons
-            </span>
+          <div className="absolute bottom-4 flex items-baseline justify-center">
+            <div className="flex w-fit items-center justify-between gap-2 px-1 text-nowrap">
+              <span className="rounded-full bg-white/35 px-4 py-2 label-xs backdrop-blur-sm">
+                {payload.lessons} Lessons
+              </span>
 
-            <span className="rounded-full bg-white/35 px-4 py-2 label-xs backdrop-blur-sm">
-              {payload.duration}
-            </span>
+              <span className="rounded-full bg-white/35 px-4 py-2 label-xs backdrop-blur-sm">
+                {payload.duration}
+              </span>
 
-            <span className="rounded-full bg-white/35 px-4 py-2 label-xs backdrop-blur-sm">
-              {payload.comments} Comments
-            </span>
+              <span className="rounded-full bg-white/35 px-4 py-2 label-xs backdrop-blur-sm">
+                {payload.comments} Comments
+              </span>
+            </div>
           </div>
         </div>
 
         <div className="mt-[20.86px] flex items-start justify-between gap-4">
           <div>
-            <h2 className="heading-xs">{payload.title}</h2>
+            <h2 className="line-clamp-1 heading-xs">{payload.title}</h2>
 
             <p className="mt-1 body-xs text-neutral-500">
               by <span className="text-primary-500">{payload.instructor}</span>

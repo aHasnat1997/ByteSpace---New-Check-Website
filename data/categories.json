@@ -1,0 +1,29 @@
+[
+  { "name": "Featured", "value": "featured" },
+  { "name": "Music", "value": "music" },
+  { "name": "Drawing & Painting", "value": "drawing-painting" },
+  { "name": "Marketing", "value": "marketing" },
+  { "name": "Animation", "value": "animation" },
+  { "name": "Social Media", "value": "social-media" },
+  { "name": "UI/UX Design", "value": "ui-ux-design" },
+  { "name": "Creative Marketing", "value": "creative-marketing" },
+  { "name": "Digital Illustration", "value": "digital-illustration" },
+  { "name": "Film & Video", "value": "film-video" },
+  { "name": "Crafts", "value": "crafts" },
+  {
+    "name": "Freelance & Entrepreneurship",
+    "value": "freelance-entrepreneurship"
+  },
+  { "name": "Graphic Design", "value": "graphic-design" },
+  { "name": "Photography", "value": "photography" },
+  { "name": "Productivity", "value": "productivity" },
+  { "name": "Web Development", "value": "web-development" },
+  { "name": "Data Science", "value": "data-science" },
+  { "name": "Cooking", "value": "cooking" },
+  { "name": "Business", "value": "business" },
+  { "name": "Personal Development", "value": "personal-development" },
+  { "name": "Finance", "value": "finance" },
+  { "name": "Lifestyle", "value": "lifestyle" },
+  { "name": "Health & Fitness", "value": "health-fitness" },
+  { "name": "Software", "value": "software" }
+]
