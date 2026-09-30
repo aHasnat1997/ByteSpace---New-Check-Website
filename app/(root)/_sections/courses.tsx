@@ -7,10 +7,10 @@ import {
   TabsContents,
   TabsList,
   TabsTrigger,
-} from "../../../components/animate-ui/components/radix/tabs"
-import ProductCard from "../../../components/shared/product-card"
-import COURSES from "../../../data/courses.json"
-import CATEGORIES from "../../../data/categories.json"
+} from "@/components/animate-ui/components/radix/tabs"
+import ProductCard from "@/components/shared/product-card"
+import COURSES from "@/data/courses.json"
+import CATEGORIES from "@/data/categories.json"
 
 import Design from "@/svgs/Frame 5.svg"
 import Development from "@/svgs/Frame 5-1.svg"
@@ -90,8 +90,11 @@ export default function Courses() {
               {CATEGORIES.map((category) => (
                 <TabsContent key={category.value} value={category.value}>
                   <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
-                    {COURSES.map((course) => (
-                      <ProductCard key={course.href} payload={course} />
+                    {COURSES.slice(0, 6).map((course, index) => (
+                      <ProductCard
+                        key={`${course.href}-${index}`}
+                        payload={course}
+                      />
                     ))}
                   </div>
                 </TabsContent>
