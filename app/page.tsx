@@ -27,7 +27,7 @@ export default function Page() {
   }
   return (
     <>
-      <div className="h-screen bg-primary-700 grid-background p-12">
+      <div className="h-[105vh] overflow-hidden bg-primary-700 grid-background p-12">
         <Hero />
       </div>
 
