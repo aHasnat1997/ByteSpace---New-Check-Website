@@ -1,10 +1,10 @@
 import Image from "next/image"
 import Ellipse from "@/svgs/Ellipse 8.svg"
-import Search from "../shared/search"
+import Search from "../../../components/shared/search"
 
 export default function Hero() {
   return (
-    <section className="relative section-container flex flex-col items-center justify-center gap-4 overflow-hidden text-center text-white">
+    <div className="relative section-container flex flex-col items-center justify-center gap-4 overflow-hidden text-center text-white">
       <div>
         <h1 className="mt-[7.7rem] max-w-233.75 heading-l">
           Get Access to Hundreds Courses Available
@@ -30,6 +30,6 @@ export default function Hero() {
           className="w-full max-w-169.5 rounded-2xl object-cover"
         />
       </div>
-    </section>
+    </div>
   )
 }

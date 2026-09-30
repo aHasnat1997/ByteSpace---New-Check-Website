@@ -26,7 +26,7 @@ export default function Testimonial() {
   ]
 
   return (
-    <section
+    <div
       style={{ backgroundImage: "url('/images/BgTwo.png')" }}
       className="bg-cover bg-no-repeat pt-18.5 pb-14.25"
     >
@@ -69,6 +69,6 @@ export default function Testimonial() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

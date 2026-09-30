@@ -1,7 +1,7 @@
-import About from "@/components/home/about"
-import Courses from "@/components/home/courses"
-import Hero from "@/components/home/hero"
-import Testimonial from "@/components/home/testimonial"
+import About from "./_sections/about"
+import Courses from "./_sections/courses"
+import Hero from "./_sections/hero"
+import Testimonial from "./_sections/testimonial"
 import BrandOne from "@/svgs/brand-1.svg"
 import BrandTwo from "@/svgs/brand-2.svg"
 import BrandThree from "@/svgs/brand-3.svg"
@@ -11,11 +11,11 @@ import BrandFive from "@/svgs/brand-5.svg"
 export default function Page() {
   return (
     <>
-      <div className="h-[105vh] overflow-hidden bg-primary-700 grid-background p-12">
+      <section className="h-[105vh] overflow-hidden bg-primary-700 grid-background p-12">
         <Hero />
-      </div>
+      </section>
 
-      <div className="bg-neutral-50 py-6">
+      <section className="bg-neutral-50 py-6">
         <div className="section-container flex items-center justify-between gap-16 py-20">
           <BrandOne />
           <BrandTwo />
@@ -23,21 +23,21 @@ export default function Page() {
           <BrandFour />
           <BrandFive />
         </div>
-      </div>
+      </section>
 
-      <div className="section-container pt-18">
+      <section className="section-container pt-18">
         <Courses />
-      </div>
+      </section>
 
-      <div className="pt-30">
+      <section className="pt-30">
         <About />
-      </div>
+      </section>
 
-      <div className="h-122 bg-primary-700 grid-background"></div>
+      <section className="h-122 bg-primary-700 grid-background"></section>
 
-      <div>
+      <section>
         <Testimonial />
-      </div>
+      </section>
     </>
   )
 }

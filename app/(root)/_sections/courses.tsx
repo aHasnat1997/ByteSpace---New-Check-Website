@@ -7,10 +7,10 @@ import {
   TabsContents,
   TabsList,
   TabsTrigger,
-} from "../animate-ui/components/radix/tabs"
-import ProductCard from "../shared/product-card"
-import COURSES from "../../data/courses.json"
-import CATEGORIES from "../../data/categories.json"
+} from "../../../components/animate-ui/components/radix/tabs"
+import ProductCard from "../../../components/shared/product-card"
+import COURSES from "../../../data/courses.json"
+import CATEGORIES from "../../../data/categories.json"
 
 import Design from "@/svgs/Frame 5.svg"
 import Development from "@/svgs/Frame 5-1.svg"
@@ -54,7 +54,7 @@ export default function Courses() {
 
   return (
     <>
-      <section>
+      <div>
         <div className="mx-auto max-w-242.75 space-y-4 text-center">
           <h2 className="mx-auto max-w-147 heading-m">
             Discover Your Passion, Build Your Skills
@@ -99,9 +99,9 @@ export default function Courses() {
             </TabsContents>
           </Tabs>
         </div>
-      </section>
+      </div>
 
-      <section className="mt-18">
+      <div className="mt-18">
         <div className="mx-auto max-w-242.75 space-y-4 text-center">
           <h2 className="heading-s">
             Explore Diverse Learning Paths at Bytespace
@@ -125,7 +125,7 @@ export default function Courses() {
             </div>
           ))}
         </div>
-      </section>
+      </div>
     </>
   )
 }

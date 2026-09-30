@@ -88,7 +88,7 @@ function SecondSections() {
 
 export default function About() {
   return (
-    <section
+    <div
       style={{ backgroundImage: "url('/images/BgOne.png')" }}
       className="bg-cover bg-no-repeat py-30"
     >
@@ -96,6 +96,6 @@ export default function About() {
         <FirstSections />
         <SecondSections />
       </div>
-    </section>
+    </div>
   )
 }
