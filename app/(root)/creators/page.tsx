@@ -16,36 +16,51 @@ const creator = {
 export default function CreatorsPage() {
   return (
     <main>
-      <section className="h-148 bg-primary-800 grid-background">
-        <div className="section-container w-full pt-43 text-white">
-          <div className="flex items-center gap-6">
+      <section className="min-h-[300px] bg-primary-800 grid-background md:h-148">
+        <div className="section-container w-full pb-10 pt-28 text-white md:pt-43">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
             <Image
               src={creator.image}
               alt={creator.name}
-              width={96}
-              height={96}
+              width={80}
+              height={80}
+              className="size-20 sm:size-24"
             />
 
             <div>
-              <div className="flex items-start gap-2">
-                <h3 className="heading-s">{creator.name}</h3>
-                <p className="w-fit rounded-full bg-secondary-400 px-6 py-2 label-m text-black">
+              <div className="flex flex-wrap items-start gap-2">
+                <h3
+                  className="heading-s"
+                  style={{ fontSize: "clamp(1.25rem, 3.5vw, 36px)" }}
+                >
+                  {creator.name}
+                </h3>
+                <p className="w-fit rounded-full bg-secondary-400 px-4 py-1.5 label-m text-black sm:px-6 sm:py-2">
                   Creator
                 </p>
               </div>
-              <p className="mt-2 body-l">{creator.designation}</p>
+              <p
+                className="mt-2 body-l"
+                style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}
+              >
+                {creator.designation}
+              </p>
             </div>
           </div>
 
-          <div className="mt-10">
+          <div className="mt-6 md:mt-10">
             {creator.bio.split("</p>").map((paragraph, index) => (
-              <p key={index} className="body-l text-neutral-50">
+              <p
+                key={index}
+                className="body-l text-neutral-50"
+                style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}
+              >
                 {paragraph.replace("<p>", "")}
               </p>
             ))}
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center gap-3 sm:gap-6">
+          <div className="mt-6 flex flex-wrap items-center gap-3 sm:gap-6 md:mt-10">
             <div className="flex items-center gap-3 sm:gap-6">
               <Button
                 type="button"

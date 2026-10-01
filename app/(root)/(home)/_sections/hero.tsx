@@ -20,7 +20,7 @@ export default function Hero() {
             business with our wide range of courses.
           </p>
 
-          <div className="mx-auto mt-15 max-w-145.25">
+          <div className="mx-auto mt-8 w-full max-w-full px-2 md:mt-15 md:max-w-145.25 md:px-0">
             <Search inputType="global" />
           </div>
         </div>

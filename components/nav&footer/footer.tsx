@@ -56,7 +56,7 @@ export default function Footer() {
               our newsletter.
             </p>
 
-            <div className="mt-11 max-w-111.25">
+            <div className="mt-8 w-full max-w-111.25 md:mt-11">
               <Search inputType="footer" />
             </div>
 

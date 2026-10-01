@@ -17,10 +17,15 @@ export default function CoursesPage() {
 
   return (
     <main>
-      <section className="flex h-90 items-center justify-center bg-primary-800 grid-background p-12">
-        <div className="mx-auto mt-25 max-w-156 text-center text-white">
-          <h2 className="heading-s">Find Your Next Course</h2>
-          <div className="mt-8 w-156">
+      <section className="flex min-h-[200px] items-center justify-center bg-primary-800 grid-background px-4 py-12 pt-28 md:h-90 md:p-12">
+        <div className="mx-auto w-full max-w-156 text-center text-white md:mt-25">
+          <h2
+            className="heading-s"
+            style={{ fontSize: "clamp(1.25rem, 3.5vw, 36px)" }}
+          >
+            Find Your Next Course
+          </h2>
+          <div className="mt-6 w-full md:mt-8">
             <Search inputType="courses" />
           </div>
         </div>

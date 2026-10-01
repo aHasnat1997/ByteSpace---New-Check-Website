@@ -13,8 +13,8 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
-      <section className="bg-neutral-50 py-6">
-        <div className="section-container flex items-center justify-between gap-16 py-20">
+      <section className="bg-neutral-50">
+        <div className="section-container flex flex-wrap items-center justify-center gap-6 py-8 md:gap-12 lg:justify-between md:py-20 [&_svg]:w-24 sm:[&_svg]:w-32 md:[&_svg]:w-40 [&_svg]:h-auto [&_svg]:shrink-0">
           <BrandOne />
           <BrandTwo />
           <BrandThree />

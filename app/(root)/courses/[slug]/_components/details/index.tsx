@@ -16,8 +16,8 @@ import RatingStar from "@/svgs/Style=Filled-1.svg"
 export default function Details() {
   return (
     <section>
-      <div className="section-container py-15.5">
-        <div className="w-full max-w-180">
+      <div className="section-container py-10 md:py-15.5">
+        <div className="w-full lg:max-w-180">
           <Tabs defaultValue={DETAILS.tabs[0].value}>
             <TabsList>
               {DETAILS.tabs.map((tab) => (
@@ -34,7 +34,7 @@ export default function Details() {
                 </p>
 
                 <h4 className="mt-6 heading-xs text-neutral-950">Sneak Peak</h4>
-                <div className="flex items-center gap-4 overflow-x-auto pt-6">
+                <div className="flex flex-wrap items-center gap-4 pt-6">
                   {DETAILS.about.sneakPeak.map((image, index) => (
                     <Image
                       key={index}
@@ -42,6 +42,7 @@ export default function Details() {
                       alt="Sneak Peak"
                       width={400}
                       height={300}
+                      className="w-[167px]"
                     />
                   ))}
                 </div>
@@ -149,7 +150,7 @@ export default function Details() {
                           (review, index) => (
                             <div
                               key={index}
-                              className="mt-6 w-full rounded-[24px] border p-10"
+                              className="mt-6 w-full rounded-[24px] border p-4 sm:p-6 md:p-10"
                             >
                               <div className="flex items-start justify-between">
                                 <div className="flex items-center gap-3">

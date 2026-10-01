@@ -4,19 +4,25 @@ import Checkbox from "@/svgs/Style=Filled-2.svg"
 function FirstSections() {
   return (
     <div
-      className={`flex flex-col items-center justify-between gap-15.75 lg:flex-row`}
+      className={`flex flex-col items-center justify-between gap-10 lg:flex-row lg:gap-15.75`}
     >
-      <div className="max-w-143.5 space-y-10">
-        <h2 className="heading-m">
+      <div className="w-full max-w-143.5 space-y-8 md:space-y-10">
+        <h2
+          className="heading-m"
+          style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
+        >
           Your Path to Professional Growth Starts Here!
         </h2>
-        <p className="body-l text-neutral-700">
+        <p
+          className="body-l text-neutral-700"
+          style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}
+        >
           Explore our curated selection of courses tailored to enhance your
           capabilities and accelerate your career journey. Whether you are
           looking to sharpen specific skills, gain industry expertise, or embark
           on a new career path entirely, we have the resources you need.
         </p>
-        <div className="flex items-center gap-14">
+        <div className="flex flex-wrap items-center gap-8 sm:gap-14">
           <div>
             <h3 className="display-xs text-primary">12K</h3>
             <p className="body-l text-neutral-700">Students</p>
@@ -34,7 +40,7 @@ function FirstSections() {
         </div>
       </div>
 
-      <div className="w-144.25">
+      <div className="w-full lg:w-144.25">
         <Image
           src="/images/Frame 11.png"
           alt="About Image"
@@ -50,10 +56,15 @@ function FirstSections() {
 function SecondSections() {
   return (
     <div
-      className={`flex flex-col items-center justify-between gap-15.75 lg:flex-row-reverse`}
+      className={`flex flex-col items-center justify-between gap-10 lg:flex-row-reverse lg:gap-15.75`}
     >
-      <div className="max-w-143.5 space-y-10">
-        <h2 className="heading-m">Create & Manage Courses Easily.</h2>
+      <div className="w-full max-w-143.5 space-y-8 md:space-y-10">
+        <h2
+          className="heading-m"
+          style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
+        >
+          Create &amp; Manage Courses Easily.
+        </h2>
         <p className="body-l text-neutral-700">
           <span className="font-bold">ByteSpace</span> supports individuals or
           entities in the creation, publication, and administration of
@@ -73,7 +84,7 @@ function SecondSections() {
         </ul>
       </div>
 
-      <div className="w-144.25">
+      <div className="w-full lg:w-144.25">
         <Image
           src="/images/Frame 12.png"
           alt="About Image"
@@ -88,12 +99,12 @@ function SecondSections() {
 
 export default function About() {
   return (
-    <section className="pt-30">
+    <section className="pt-12 md:pt-20 lg:pt-30">
       <div
         style={{ backgroundImage: "url('/images/BgOne.png')" }}
-        className="bg-cover bg-no-repeat py-30"
+        className="bg-cover bg-no-repeat py-12 md:py-20 lg:py-30"
       >
-        <div className="section-container space-y-18">
+        <div className="section-container space-y-12 md:space-y-16 lg:space-y-18">
           <FirstSections />
           <SecondSections />
         </div>

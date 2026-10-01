@@ -2,7 +2,7 @@ import PlayIcon from "@/svgs/play.svg"
 
 export default function VideoPlayer() {
   return (
-    <div className="mt-14.75 min-h-119.75 w-full max-w-180">
+    <div className="w-full lg:mt-14.75 lg:max-w-180">
       <div className="relative aspect-video h-full w-full overflow-hidden rounded-[24px] bg-neutral-950">
         <video
           poster="/images/Frame-6.png"

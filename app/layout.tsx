@@ -56,7 +56,7 @@ export default function RootLayout({
         clashDisplay.variable
       )}
     >
-      <body cz-shortcut-listen="true">
+      <body suppressHydrationWarning>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

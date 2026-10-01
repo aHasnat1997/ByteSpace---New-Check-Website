@@ -55,11 +55,7 @@ export default function PotentialOrnaments() {
           fit="object-left"
           box={{ w: 120, h: 120, left: -40, bottom: 60 }}
         />
-        <Ornament
-          n="/images/potentials-ornaments-4.png"
-          fit="object-left"
-          box={{ w: 100, h: 100, left: 140, top: 0 }}
-        />
+
         <Ornament
           n="/images/potentials-ornaments-7.png"
           fit="object-right"

@@ -10,7 +10,7 @@ export default function ProductCard({
   payload: TProductCardProps
 }) {
   return (
-    <article className="w-full max-w-105 rounded-[24px] border border-neutral-200 bg-white p-4">
+    <article className="w-full rounded-[24px] border border-neutral-200 bg-white p-4">
       <Link href={payload.href} className="block">
         <div className="relative h-55 overflow-hidden rounded-[12px]">
           <Image

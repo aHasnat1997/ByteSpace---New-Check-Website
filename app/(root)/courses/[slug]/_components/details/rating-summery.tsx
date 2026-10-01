@@ -17,7 +17,7 @@ export default function RatingSummary({
   )
 
   return (
-    <div className="mt-6 w-full rounded-[24px] border p-10">
+    <div className="mt-6 w-full rounded-[24px] border p-4 sm:p-6 md:p-10">
       <div className="flex flex-col items-center gap-6 sm:flex-row">
         <div className="flex flex-col items-center rounded-[8px] bg-secondary-400 p-10">
           <span className="label-s text-neutral-950">Ratings</span>

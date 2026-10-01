@@ -28,15 +28,18 @@ export default function Testimonial() {
   return (
     <section
       style={{ backgroundImage: "url('/images/BgTwo.png')" }}
-      className="bg-cover bg-no-repeat pt-18.5 pb-14.25"
+      className="bg-cover bg-no-repeat pt-10 pb-8 md:pt-18.5 md:pb-14.25"
     >
       <div className="section-container">
-        <div className="flex w-full items-center justify-between gap-10.75">
-          <h2 className="mx-auto max-w-144.25 heading-m">
+        <div className="flex w-full flex-col items-start gap-8 md:flex-row md:items-center md:justify-between md:gap-10.75">
+          <h2
+            className="mx-auto max-w-144.25 heading-m text-center md:mx-0 md:text-left"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
+          >
             Discover What Our Community Is Saying
           </h2>
 
-          <p className="mx-auto max-w-145 body-l text-neutral-700">
+          <p className="mx-auto max-w-145 body-l text-neutral-700 text-center md:mx-0 md:text-left" style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}>
             At ByteSpace, our vibrant community of learners and creators is at
             the heart of what we do. Hear directly from those who have
             experienced the transformative journey of learning and creating on
@@ -46,7 +49,7 @@ export default function Testimonial() {
         </div>
 
         <div className="mt-18">
-          <div className="grid grid-cols-1 gap-10.25 md:grid-cols-3">
+          <div className="grid grid-cols-1 gap-10.25 lg:grid-cols-3">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}

@@ -227,7 +227,19 @@
 @utility section-container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 120px 0 122px;
+  padding: 0 16px;
+
+  @media (min-width: 640px) {
+    padding: 0 32px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 0 64px;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 0 120px 0 122px;
+  }
 }
 
 @utility heading-l {
@@ -335,9 +347,17 @@
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 40px;
-  padding-inline: 120px;
+  padding-inline: 16px;
   margin-inline: auto;
   width: 100%;
+
+  @media (min-width: 640px) {
+    padding-inline: 32px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-inline: 120px;
+  }
 }
 
 @utility grid-background {

@@ -53,13 +53,19 @@ export default function Courses() {
   ]
 
   return (
-    <section className="section-container pt-18">
+    <section className="section-container pt-10 md:pt-18">
       <div>
         <div className="mx-auto max-w-242.75 space-y-4 text-center">
-          <h2 className="mx-auto max-w-147 heading-m">
+          <h2
+            className="mx-auto max-w-147 heading-m"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
+          >
             Discover Your Passion, Build Your Skills
           </h2>
-          <p className="body-l text-neutral-400">
+          <p
+            className="body-l text-neutral-400"
+            style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}
+          >
             At Bytespace Courses, we bring you closer to life-changing
             knowledge. Explore a variety of courses across different fields,
             from technology to the arts, and make a difference in your career
@@ -104,12 +110,18 @@ export default function Courses() {
         </div>
       </div>
 
-      <div className="mt-18">
+      <div className="mt-10 md:mt-18">
         <div className="mx-auto max-w-242.75 space-y-4 text-center">
-          <h2 className="heading-s">
+          <h2
+            className="heading-s"
+            style={{ fontSize: "clamp(1.25rem, 3.5vw, 36px)" }}
+          >
             Explore Diverse Learning Paths at Bytespace
           </h2>
-          <p className="body-l text-neutral-400">
+          <p
+            className="body-l text-neutral-400"
+            style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}
+          >
             At Bytespace, we believe in empowering individuals through
             knowledge. Our diverse range of courses spans various fields,
             ensuring there's something for everyone. Unleash your potential and
@@ -117,14 +129,14 @@ export default function Courses() {
           </p>
         </div>
 
-        <div className="mt-16 flex items-center justify-center gap-10">
+        <div className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 lg:flex lg:items-center lg:justify-center lg:gap-10">
           {featuredCategories.map((category) => (
             <div
               key={category.title}
-              className="flex h-41.75 w-41.75 flex-col items-center justify-center gap-4 rounded-[24px] border"
+              className="flex h-36 flex-col items-center justify-center gap-3 rounded-[24px] border sm:h-41.75 sm:w-full lg:size-41.75 lg:shrink-0"
             >
               <category.icon />
-              <h3 className="label-xl">{category.title}</h3>
+              <h3 className="label-m sm:label-xl">{category.title}</h3>
             </div>
           ))}
         </div>

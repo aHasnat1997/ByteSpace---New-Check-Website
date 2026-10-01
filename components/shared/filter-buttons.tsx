@@ -6,8 +6,8 @@ import Relevant from "@/svgs/Style=Filled.svg"
 
 export default function FilterButtons() {
   return (
-    <div className="flex w-full items-center justify-between gap-6">
-      <div className="flex items-center gap-4">
+    <div className="flex w-full flex-wrap items-center justify-between gap-3 sm:gap-6">
+      <div className="flex flex-wrap items-center gap-2 sm:gap-4">
         <Button variant="outline" size="sm">
           <Filter className="size-6 text-neutral-700" />
           Filter
