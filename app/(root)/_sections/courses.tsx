@@ -53,7 +53,7 @@ export default function Courses() {
   ]
 
   return (
-    <>
+    <section className="section-container pt-18">
       <div>
         <div className="mx-auto max-w-242.75 space-y-4 text-center">
           <h2 className="mx-auto max-w-147 heading-m">
@@ -129,6 +129,6 @@ export default function Courses() {
           ))}
         </div>
       </div>
-    </>
+    </section>
   )
 }

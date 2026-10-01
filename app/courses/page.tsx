@@ -9,7 +9,7 @@ import {
 import ProductCard from "@/components/shared/product-card"
 import COURSES from "@/data/courses.json"
 import CATEGORIES from "@/data/categories.json"
-import Pagination from "./_component/pagination"
+import Pagination from "./_components/pagination"
 import FilterButtons from "@/components/shared/filter-buttons"
 
 export default function CoursesPage() {

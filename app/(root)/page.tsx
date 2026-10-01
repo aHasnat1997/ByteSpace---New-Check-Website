@@ -7,14 +7,12 @@ import BrandTwo from "@/svgs/brand-2.svg"
 import BrandThree from "@/svgs/brand-3.svg"
 import BrandFour from "@/svgs/brand-4.svg"
 import BrandFive from "@/svgs/brand-5.svg"
+import Potential from "./_sections/potential"
 
 export default function HomePage() {
   return (
     <main>
-      <section className="h-[105vh] overflow-hidden bg-primary-700 grid-background p-12">
-        <Hero />
-      </section>
-
+      <Hero />
       <section className="bg-neutral-50 py-6">
         <div className="section-container flex items-center justify-between gap-16 py-20">
           <BrandOne />
@@ -24,20 +22,10 @@ export default function HomePage() {
           <BrandFive />
         </div>
       </section>
-
-      <section className="section-container pt-18">
-        <Courses />
-      </section>
-
-      <section className="pt-30">
-        <About />
-      </section>
-
-      <section className="h-122 bg-primary-700 grid-background"></section>
-
-      <section>
-        <Testimonial />
-      </section>
+      <Courses />
+      <About />
+      <Potential />
+      <Testimonial />
     </main>
   )
 }

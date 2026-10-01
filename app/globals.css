@@ -348,3 +348,48 @@
     linear-gradient(to right, var(--grid-color) 2px, transparent 1px),
     linear-gradient(to bottom, var(--grid-color) 2px, transparent 1px);
 }
+
+@property --u {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 1px;
+}
+
+@property --k {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 1;
+}
+
+@property --s {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 1;
+}
+
+.hero-scale {
+  --u: clamp(0.5px, calc(100vw / 390), 2px);
+  --k: 0.42;
+  --s: 1;
+  min-height: calc(540px + var(--u) * 120);
+}
+
+@media (min-width: 768px) {
+  .hero-scale {
+    --u: clamp(0.6px, calc(100vw / 1920), 1.25px);
+    --k: 1;
+    min-height: calc(560px + var(--u) * 370);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .hero-scale {
+    --s: 0.85;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .hero-scale {
+    --s: 0.65;
+  }
+}

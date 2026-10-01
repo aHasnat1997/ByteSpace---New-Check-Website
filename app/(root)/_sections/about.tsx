@@ -88,14 +88,16 @@ function SecondSections() {
 
 export default function About() {
   return (
-    <div
-      style={{ backgroundImage: "url('/images/BgOne.png')" }}
-      className="bg-cover bg-no-repeat py-30"
-    >
-      <div className="section-container space-y-18">
-        <FirstSections />
-        <SecondSections />
+    <section className="pt-30">
+      <div
+        style={{ backgroundImage: "url('/images/BgOne.png')" }}
+        className="bg-cover bg-no-repeat py-30"
+      >
+        <div className="section-container space-y-18">
+          <FirstSections />
+          <SecondSections />
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
