@@ -1,0 +1,800 @@
+[
+  {
+    "image": "/images/Frame.png",
+    "title": "Learn Figma from Basic",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/learn-figma-from-basic",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-1.png",
+    "title": "Build Digital Asset",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/build-digital-asset",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-2.png",
+    "title": "The Power of Big Data",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/the-power-of-big-data",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-3.png",
+    "title": "Balancing Productivity and Focus",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/balancing-productivity-and-focus",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-4.png",
+    "title": "Mastering Money Management",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/mastering-money-management",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-5.png",
+    "title": "From Idea to Startup Success",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/from-idea-to-startup-success",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame.png",
+    "title": "Learn Figma from Basic",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/learn-figma-from-basic",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-1.png",
+    "title": "Build Digital Asset",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/build-digital-asset",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-2.png",
+    "title": "The Power of Big Data",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/the-power-of-big-data",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-3.png",
+    "title": "Balancing Productivity and Focus",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/balancing-productivity-and-focus",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-4.png",
+    "title": "Mastering Money Management",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/mastering-money-management",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-5.png",
+    "title": "From Idea to Startup Success",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/from-idea-to-startup-success",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame.png",
+    "title": "Learn Figma from Basic",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/learn-figma-from-basic",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-1.png",
+    "title": "Build Digital Asset",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/build-digital-asset",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-2.png",
+    "title": "The Power of Big Data",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/the-power-of-big-data",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-3.png",
+    "title": "Balancing Productivity and Focus",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/balancing-productivity-and-focus",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-4.png",
+    "title": "Mastering Money Management",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/mastering-money-management",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-5.png",
+    "title": "From Idea to Startup Success",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/from-idea-to-startup-success",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame.png",
+    "title": "Learn Figma from Basic",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/learn-figma-from-basic",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-1.png",
+    "title": "Build Digital Asset",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/build-digital-asset",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-2.png",
+    "title": "The Power of Big Data",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/the-power-of-big-data",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-3.png",
+    "title": "Balancing Productivity and Focus",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/balancing-productivity-and-focus",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-4.png",
+    "title": "Mastering Money Management",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/mastering-money-management",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-5.png",
+    "title": "From Idea to Startup Success",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/from-idea-to-startup-success",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame.png",
+    "title": "Learn Figma from Basic",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/learn-figma-from-basic",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-1.png",
+    "title": "Build Digital Asset",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/build-digital-asset",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-2.png",
+    "title": "The Power of Big Data",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/the-power-of-big-data",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-3.png",
+    "title": "Balancing Productivity and Focus",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/balancing-productivity-and-focus",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-4.png",
+    "title": "Mastering Money Management",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/mastering-money-management",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-5.png",
+    "title": "From Idea to Startup Success",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/from-idea-to-startup-success",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame.png",
+    "title": "Learn Figma from Basic",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/learn-figma-from-basic",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-1.png",
+    "title": "Build Digital Asset",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/build-digital-asset",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-2.png",
+    "title": "The Power of Big Data",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/the-power-of-big-data",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-3.png",
+    "title": "Balancing Productivity and Focus",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/balancing-productivity-and-focus",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-4.png",
+    "title": "Mastering Money Management",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/mastering-money-management",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-5.png",
+    "title": "From Idea to Startup Success",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/from-idea-to-startup-success",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame.png",
+    "title": "Learn Figma from Basic",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/learn-figma-from-basic",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-1.png",
+    "title": "Build Digital Asset",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/build-digital-asset",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-2.png",
+    "title": "The Power of Big Data",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/the-power-of-big-data",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-3.png",
+    "title": "Balancing Productivity and Focus",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/balancing-productivity-and-focus",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-4.png",
+    "title": "Mastering Money Management",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/mastering-money-management",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  },
+  {
+    "image": "/images/Frame-5.png",
+    "title": "From Idea to Startup Success",
+    "instructor": "purepearl studio",
+    "instructorHref": "/instructors/purepearl-studio",
+    "level": "Beginner",
+    "lessons": 17,
+    "duration": "2 hours 16 mins",
+    "comments": 59,
+    "rating": 4.5,
+    "price": 25,
+    "href": "/courses/from-idea-to-startup-success",
+    "instructors": [
+      { "name": "Instructor 1", "image": "/images/Image.png" },
+      { "name": "Instructor 2", "image": "/images/Ellipse.png" },
+      { "name": "Instructor 3", "image": "/images/Ellipse-1.png" },
+      { "name": "Instructor 4", "image": "/images/Ellipse-2.png" }
+    ]
+  }
+]
