@@ -1,12 +1,10 @@
 import { Poppins } from "next/font/google"
 import localFont from "next/font/local"
 
-import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { Metadata } from "next"
-import Navigation from "@/components/nav&footer/navigation"
-import Footer from "@/components/nav&footer/footer"
+import "./globals.css"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -58,12 +56,8 @@ export default function RootLayout({
         clashDisplay.variable
       )}
     >
-      <body cz-shortcut-listen="true" className="w-full">
-        <ThemeProvider>
-          <Navigation />
-          {children}
-          <Footer />
-        </ThemeProvider>
+      <body cz-shortcut-listen="true">
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   )

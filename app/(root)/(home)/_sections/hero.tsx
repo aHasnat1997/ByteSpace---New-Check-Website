@@ -3,7 +3,7 @@ import HeroOrnaments from "../_components/hero-ornaments"
 
 export default function Hero() {
   return (
-    <section className="hero-scale relative isolate overflow-hidden bg-primary-700 grid-background">
+    <section className="hero-scale relative isolate overflow-hidden bg-primary-800 grid-background">
       <div className="relative z-20 section-container pt-20 pb-[calc(var(--u,1px)*var(--k,1)*520)]">
         <div className="mx-auto mt-4 max-w-233.75 space-y-4 text-center md:mt-12.25 md:space-y-8">
           <h1

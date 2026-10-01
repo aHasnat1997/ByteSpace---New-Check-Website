@@ -1,13 +1,13 @@
-import About from "./(home)/_sections/about"
-import Courses from "./(home)/_sections/courses"
-import Hero from "./(home)/_sections/hero"
-import Testimonial from "./(home)/_sections/testimonial"
+import About from "./_sections/about"
+import Courses from "./_sections/courses"
+import Hero from "./_sections/hero"
+import Testimonial from "./_sections/testimonial"
 import BrandOne from "@/svgs/brand-1.svg"
 import BrandTwo from "@/svgs/brand-2.svg"
 import BrandThree from "@/svgs/brand-3.svg"
 import BrandFour from "@/svgs/brand-4.svg"
 import BrandFive from "@/svgs/brand-5.svg"
-import Potential from "./(home)/_sections/potential"
+import Potential from "./_sections/potential"
 
 export default function HomePage() {
   return (
