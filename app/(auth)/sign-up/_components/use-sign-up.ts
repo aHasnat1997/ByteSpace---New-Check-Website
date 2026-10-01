@@ -7,6 +7,12 @@ const schema = z.object({
   password: z.string().min(6, "Password must be at least 6 characters long"),
 })
 
+/**
+ * A custom hook providing the form state and validation logic for sign-up.
+ * Utilizes `react-hook-form` and `zod` for validation.
+ *
+ * @returns {Object} The sign-up form object and submit handler.
+ */
 export default function useSignUp() {
   return useAuthForm(schema, { fullName: "", email: "", password: "" })
 }

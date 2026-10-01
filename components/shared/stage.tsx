@@ -1,9 +1,22 @@
 import { ReactNode } from "react"
 
-/** 1 design px -> scaled px. `--u` is set on the hero section (globals.css). */
+/**
+ * Calculates a scaled pixel value based on a CSS variable.
+ *
+ * @param {number} n - The design pixel value.
+ * @returns {string} The computed CSS calc string.
+ */
 const px = (n: number) => `calc(var(--u, 1px) * ${n})`
 
-/** A design-sized coordinate space, centered. Everything inside uses px(). */
+/**
+ * Renders a centered stage area for relative positioning of elements.
+ *
+ * @param {Object} props - The component props.
+ * @param {number} props.width - The design width of the stage.
+ * @param {string} [props.className] - Optional additional classes.
+ * @param {ReactNode} props.children - The elements to render inside the stage.
+ * @returns {JSX.Element} The Stage component.
+ */
 export default function Stage({
   width,
   className = "",

@@ -5,6 +5,13 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import ShoppingCart from "@/svgs/Style=Outlined-9.svg"
 
+/**
+ * Renders the Call-to-Action (CTA) section of the navigation bar, including links and a cart icon.
+ *
+ * @param {Object} props - The component props.
+ * @param {string} [props.className] - Optional additional CSS classes.
+ * @returns {JSX.Element} The NavbarCta component.
+ */
 export default function NavbarCta({ className }: { className?: string }) {
   const pathname = usePathname()
 

@@ -14,6 +14,13 @@ const formSchema = z.object({
   text: z.string(),
 })
 
+/**
+ * Renders a search form tailored for different contexts (global, courses, footer).
+ *
+ * @param {Object} props - The component props.
+ * @param {"global" | "courses" | "footer"} props.inputType - Determines the styling and behavior of the search field.
+ * @returns {JSX.Element} The Search component.
+ */
 export default function Search({
   inputType,
 }: {

@@ -19,6 +19,12 @@ import Business from "@/svgs/Frame 5-3.svg"
 import Marketing from "@/svgs/Frame 5-4.svg"
 import Photography from "@/svgs/Frame 5-5.svg"
 
+/**
+ * The Courses section on the home page.
+ * Displays a tabbed interface of course categories and a grid of featured course categories.
+ *
+ * @returns {JSX.Element} The Courses section component.
+ */
 export default function Courses() {
   const [showAllCategories, setShowAllCategories] = useState(false)
   const visibleCategories = showAllCategories

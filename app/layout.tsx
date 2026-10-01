@@ -40,6 +40,14 @@ export const metadata: Metadata = {
   },
 }
 
+/**
+ * Root layout component that wraps the entire Next.js application.
+ * Defines global fonts, styles, and providers.
+ *
+ * @param {Object} props - The component props.
+ * @param {React.ReactNode} props.children - The nested child components/pages.
+ * @returns {JSX.Element} The RootLayout component.
+ */
 export default function RootLayout({
   children,
 }: Readonly<{

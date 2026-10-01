@@ -5,6 +5,17 @@ import { Input } from "@/components/ui/input"
 import { FieldValues, Path, UseFormReturn } from "react-hook-form"
 import { Controller } from "react-hook-form"
 
+/**
+ * Properties for the FormField component.
+ *
+ * @template T - The type of form field values.
+ * @interface FormFieldProps
+ * @property {UseFormReturn<T>} form - The React Hook Form instance.
+ * @property {Path<T>} name - The path to the field in the form state.
+ * @property {string} label - The label text for the field.
+ * @property {string} placeholder - The placeholder text for the input.
+ * @property {React.HTMLInputTypeAttribute} [type="text"] - The HTML input type.
+ */
 interface FormFieldProps<T extends FieldValues> {
   form: UseFormReturn<T>
   name: Path<T>
@@ -13,6 +24,13 @@ interface FormFieldProps<T extends FieldValues> {
   type?: React.HTMLInputTypeAttribute
 }
 
+/**
+ * Renders a controlled form field with a label and error handling.
+ *
+ * @template T - The type of form field values.
+ * @param {FormFieldProps<T>} props - The component props.
+ * @returns {JSX.Element} The FormField component.
+ */
 export default function FormField<T extends FieldValues>({
   form,
   name,

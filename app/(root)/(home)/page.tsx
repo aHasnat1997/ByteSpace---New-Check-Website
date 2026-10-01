@@ -9,6 +9,12 @@ import BrandFour from "@/svgs/brand-4.svg"
 import BrandFive from "@/svgs/brand-5.svg"
 import Potential from "./_sections/potential"
 
+/**
+ * The main Home Page for ByteSpace.
+ * Assembles various sections including Hero, Brand Logos, Courses, About, Potential, and Testimonial.
+ *
+ * @returns {JSX.Element} The HomePage component.
+ */
 export default function HomePage() {
   return (
     <main>

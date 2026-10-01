@@ -6,6 +6,13 @@ import Link from "next/link"
 import useSignUp from "./use-sign-up"
 import FormField from "@/components/shared/form-field"
 
+/**
+ * Renders the sign-up form.
+ * Uses the `useSignUp` hook for state and validation.
+ * Includes fields for full name, email, and password.
+ *
+ * @returns {JSX.Element} The sign-up form component.
+ */
 export default function Form() {
   const { form, onSubmit } = useSignUp()
   return (

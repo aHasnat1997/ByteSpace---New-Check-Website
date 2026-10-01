@@ -1,6 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
 
+/**
+ * Renders the ByteSpace logo.
+ *
+ * @param {Object} props - The component props.
+ * @param {"light" | "dark"} [props.logoMode] - The color mode of the logo text.
+ * @returns {JSX.Element} The Logo component.
+ */
 export default function Logo({ logoMode }: { logoMode?: "light" | "dark" }) {
   return (
     <Link href="/">

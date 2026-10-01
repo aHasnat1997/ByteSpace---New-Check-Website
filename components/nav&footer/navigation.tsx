@@ -3,6 +3,12 @@ import NavbarCta from "./nav-bar-cta"
 import NavMenu from "./nav-menu"
 import Logo from "../shared/logo"
 
+/**
+ * Renders the main navigation header for the application.
+ * Incorporates the logo, desktop navigation menu, CTA buttons, and a mobile menu.
+ *
+ * @returns {JSX.Element} The Navigation component.
+ */
 export default function Navigation() {
   return (
     <header className="absolute inset-x-0 top-0 z-50">

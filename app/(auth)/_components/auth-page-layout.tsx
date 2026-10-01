@@ -1,11 +1,26 @@
 import Image from "next/image"
 
+/**
+ * Props for the AuthPageLayout component.
+ *
+ * @interface AuthPageLayoutProps
+ * @property {string} heading - The main heading displayed on the auth page.
+ * @property {string} description - The subtitle or description text.
+ * @property {React.ReactNode} children - The form or specific auth content to render.
+ */
 interface AuthPageLayoutProps {
   heading: string
   description: string
   children: React.ReactNode
 }
 
+/**
+ * A reusable layout structure for authentication pages (e.g., Sign In, Sign Up).
+ * Handles the two-column grid layout with an illustration and the specific auth form.
+ *
+ * @param {AuthPageLayoutProps} props - The component props.
+ * @returns {JSX.Element} The AuthPageLayout component.
+ */
 export default function AuthPageLayout({
   heading,
   description,

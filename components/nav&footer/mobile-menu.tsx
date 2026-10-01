@@ -8,6 +8,12 @@ import ShoppingCart from "@/svgs/Style=Outlined-9.svg"
 import { ctaLinks } from "./nav-bar-cta"
 import { navLinks } from "./nav-menu"
 
+/**
+ * Renders the mobile navigation menu, including a hamburger toggle, navigation links, and CTA buttons.
+ * It manages its own open/close state and closes on Escape key press.
+ *
+ * @returns {JSX.Element} The MobileMenu component.
+ */
 export default function MobileMenu() {
   const [open, setOpen] = useState(false)
   const pathname = usePathname()

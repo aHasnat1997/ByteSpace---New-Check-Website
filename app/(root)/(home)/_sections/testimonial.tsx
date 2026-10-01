@@ -1,5 +1,11 @@
 import Image from "next/image"
 
+/**
+ * The Testimonial section.
+ * Displays user quotes and feedback in a grid format.
+ *
+ * @returns {JSX.Element} The Testimonial section component.
+ */
 export default function Testimonial() {
   const testimonials = [
     {

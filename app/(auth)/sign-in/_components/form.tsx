@@ -7,6 +7,13 @@ import SocialLogin from "./social-login"
 import useSignIn from "./use-sign-in"
 import FormField from "@/components/shared/form-field"
 
+/**
+ * Renders the sign-in form.
+ * Uses the `useSignIn` hook for state and validation.
+ * Includes fields for email and password, along with social login options.
+ *
+ * @returns {JSX.Element} The sign-in form component.
+ */
 export default function Form() {
   const { form, onSubmit } = useSignIn()
   return (

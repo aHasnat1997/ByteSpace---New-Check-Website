@@ -9,6 +9,12 @@ const poppins = Poppins({
   weight: ["400", "600", "700"],
 })
 
+/**
+ * Custom 404 Not Found page.
+ * Displays a styled error message and a button to return to the homepage.
+ *
+ * @returns {JSX.Element} The NotFound component.
+ */
 export default function NotFound() {
   return (
     <>

@@ -4,6 +4,13 @@ import { cn } from "cn"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
+/**
+ * Renders the desktop navigation menu with links defined in `navLinks`.
+ *
+ * @param {Object} props - The component props.
+ * @param {string} [props.className] - Optional additional CSS classes.
+ * @returns {JSX.Element} The NavMenu component.
+ */
 export default function NavMenu({ className }: { className?: string }) {
   const pathname = usePathname()
 

@@ -2,11 +2,27 @@
 
 import * as React from 'react';
 
+/**
+ * Options for calculating auto height.
+ *
+ * @typedef {Object} AutoHeightOptions
+ * @property {boolean} [includeParentBox] - Whether to include parent box styling in calculation.
+ * @property {boolean} [includeSelfBox] - Whether to include the element's own box styling.
+ */
 type AutoHeightOptions = {
   includeParentBox?: boolean;
   includeSelfBox?: boolean;
 };
 
+/**
+ * A custom hook to dynamically measure and observe the height of a DOM element,
+ * adapting to window resizing and parent box sizing.
+ *
+ * @template T - The HTML element type.
+ * @param {React.DependencyList} [deps=[]] - Dependency list to trigger re-measurement.
+ * @param {AutoHeightOptions} [options] - Configuration for height measurement.
+ * @returns {{ ref: React.MutableRefObject<T | null>, height: number }} Object containing the ref to attach to an element and the computed height.
+ */
 export function useAutoHeight<T extends HTMLElement = HTMLDivElement>(
   deps: React.DependencyList = [],
   options: AutoHeightOptions = {
@@ -88,7 +104,6 @@ export function useAutoHeight<T extends HTMLElement = HTMLDivElement>(
       ro.disconnect();
       roRef.current = null;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps);
 
   React.useLayoutEffect(() => {

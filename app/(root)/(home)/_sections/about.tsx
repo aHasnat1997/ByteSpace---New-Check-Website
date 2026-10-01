@@ -1,6 +1,11 @@
 import Image from "next/image"
 import Checkbox from "@/svgs/Style=Filled-2.svg"
 
+/**
+ * Renders the first part of the About section, highlighting user and course statistics.
+ *
+ * @returns {JSX.Element} The FirstSections component.
+ */
 function FirstSections() {
   return (
     <div
@@ -53,6 +58,11 @@ function FirstSections() {
   )
 }
 
+/**
+ * Renders the second part of the About section, focusing on course creation features.
+ *
+ * @returns {JSX.Element} The SecondSections component.
+ */
 function SecondSections() {
   return (
     <div
@@ -97,6 +107,11 @@ function SecondSections() {
   )
 }
 
+/**
+ * The complete About section combining the first and second descriptive parts.
+ *
+ * @returns {JSX.Element} The About section component.
+ */
 export default function About() {
   return (
     <section className="pt-12 md:pt-20 lg:pt-30">

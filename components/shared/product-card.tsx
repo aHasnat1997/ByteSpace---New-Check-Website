@@ -4,6 +4,13 @@ import BarChart from "@/svgs/signal_cellular_alt.svg"
 import Star from "@/svgs/Style=Outlined-8.svg"
 import { TProductCardProps } from "@/types/product.type"
 
+/**
+ * Renders a product or course card with details such as title, instructor, rating, and price.
+ *
+ * @param {Object} props - The component props.
+ * @param {TProductCardProps} props.payload - The data payload containing product details.
+ * @returns {JSX.Element} The ProductCard component.
+ */
 export default function ProductCard({
   payload,
 }: {

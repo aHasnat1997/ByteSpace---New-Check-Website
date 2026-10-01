@@ -1,5 +1,11 @@
 import PotentialOrnaments from "../_components/potential-ornaments"
 
+/**
+ * The Potential section.
+ * Encourages users to join as creators with a call-to-action and decorative ornaments.
+ *
+ * @returns {JSX.Element} The Potential section component.
+ */
 export default function Potential() {
   return (
     <section className="relative isolate overflow-hidden bg-primary-700 grid-background">

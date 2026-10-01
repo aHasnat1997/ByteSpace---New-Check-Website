@@ -1,6 +1,11 @@
 import FacebookIcon from "@/svgs/facebook.svg"
 import GoogleIcon from "@/svgs/google.svg"
 
+/**
+ * Renders a row of social login buttons (e.g., Facebook, Google).
+ *
+ * @returns {JSX.Element} The SocialLogin component.
+ */
 export default function SocialLogin() {
   return (
     <div className="my-12">

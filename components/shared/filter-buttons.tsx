@@ -4,6 +4,11 @@ import Level from "@/svgs/signal_cellular_alt.svg"
 import Category from "@/svgs/Style=Outlined.svg"
 import Relevant from "@/svgs/Style=Filled.svg"
 
+/**
+ * Renders a group of filter buttons.
+ *
+ * @returns {JSX.Element} The FilterButtons component.
+ */
 export default function FilterButtons() {
   return (
     <div className="flex w-full flex-wrap items-center justify-between gap-3 sm:gap-6">

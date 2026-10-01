@@ -41,6 +41,11 @@ const legalLinks = [
   { label: "Cookies Settings", href: "/cookie-settings" },
 ]
 
+/**
+ * Renders the global footer component containing links, newsletter subscription, and legal information.
+ *
+ * @returns {JSX.Element} The Footer component.
+ */
 export default function Footer() {
   return (
     <footer className="border-t">

@@ -1,6 +1,12 @@
 import Search from "@/components/shared/search"
 import HeroOrnaments from "../_components/hero-ornaments"
 
+/**
+ * The Hero section for the home page.
+ * Displays the main headline, description, global search bar, and decorative ornaments.
+ *
+ * @returns {JSX.Element} The Hero section component.
+ */
 export default function Hero() {
   return (
     <section className="hero-scale relative isolate overflow-hidden bg-primary-800 grid-background">
