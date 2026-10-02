@@ -8,6 +8,7 @@ import BrandThree from "@/svgs/brand-3.svg"
 import BrandFour from "@/svgs/brand-4.svg"
 import BrandFive from "@/svgs/brand-5.svg"
 import Potential from "./_sections/potential"
+import Reveal from "@/components/shared/reveal"
 
 /**
  * The main Home Page for ByteSpace.
@@ -20,13 +21,15 @@ export default function HomePage() {
     <main>
       <Hero />
       <section className="bg-neutral-50">
-        <div className="section-container flex flex-wrap items-center justify-center gap-6 py-8 md:gap-12 lg:justify-between md:py-20 [&_svg]:w-24 sm:[&_svg]:w-32 md:[&_svg]:w-40 [&_svg]:h-auto [&_svg]:shrink-0">
-          <BrandOne />
-          <BrandTwo />
-          <BrandThree />
-          <BrandFour />
-          <BrandFive />
-        </div>
+        <Reveal direction="fade-up" delay={0.1} threshold={0.1}>
+          <div className="section-container flex flex-wrap items-center justify-center gap-6 py-8 md:gap-12 lg:justify-between md:py-20 [&_svg]:w-24 sm:[&_svg]:w-32 md:[&_svg]:w-40 [&_svg]:h-auto [&_svg]:shrink-0">
+            <BrandOne />
+            <BrandTwo />
+            <BrandThree />
+            <BrandFour />
+            <BrandFive />
+          </div>
+        </Reveal>
       </section>
       <Courses />
       <About />

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Checkbox from "@/svgs/Style=Filled-2.svg"
+import Reveal from "@/components/shared/reveal"
 
 /**
  * Renders the first part of the About section, highlighting user and course statistics.
@@ -11,41 +12,43 @@ function FirstSections() {
     <div
       className={`flex flex-col items-center justify-between gap-10 lg:flex-row lg:gap-15.75`}
     >
-      <div className="w-full max-w-143.5 space-y-8 md:space-y-10">
-        <h2
-          className="heading-m"
-          style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
-        >
-          Your Path to Professional Growth Starts Here!
-        </h2>
-        <p
-          className="body-l text-neutral-700"
-          style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}
-        >
-          Explore our curated selection of courses tailored to enhance your
-          capabilities and accelerate your career journey. Whether you are
-          looking to sharpen specific skills, gain industry expertise, or embark
-          on a new career path entirely, we have the resources you need.
-        </p>
-        <div className="flex flex-wrap items-center gap-8 sm:gap-14">
-          <div>
-            <h3 className="display-xs text-primary">12K</h3>
-            <p className="body-l text-neutral-700">Students</p>
-          </div>
+      <Reveal direction="fade-right" delay={0.05} className="w-full max-w-143.5">
+        <div className="space-y-8 md:space-y-10">
+          <h2
+            className="heading-m"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
+          >
+            Your Path to Professional Growth Starts Here!
+          </h2>
+          <p
+            className="body-l text-neutral-700"
+            style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}
+          >
+            Explore our curated selection of courses tailored to enhance your
+            capabilities and accelerate your career journey. Whether you are
+            looking to sharpen specific skills, gain industry expertise, or embark
+            on a new career path entirely, we have the resources you need.
+          </p>
+          <div className="flex flex-wrap items-center gap-8 sm:gap-14">
+            <div>
+              <h3 className="display-xs text-primary">12K</h3>
+              <p className="body-l text-neutral-700">Students</p>
+            </div>
 
-          <div>
-            <h3 className="display-xs text-primary">70+</h3>
-            <p className="body-l text-neutral-700">Courses</p>
-          </div>
+            <div>
+              <h3 className="display-xs text-primary">70+</h3>
+              <p className="body-l text-neutral-700">Courses</p>
+            </div>
 
-          <div>
-            <h3 className="display-xs text-primary">16</h3>
-            <p className="body-l text-neutral-700">Creators</p>
+            <div>
+              <h3 className="display-xs text-primary">16</h3>
+              <p className="body-l text-neutral-700">Creators</p>
+            </div>
           </div>
         </div>
-      </div>
+      </Reveal>
 
-      <div className="w-full lg:w-144.25">
+      <Reveal direction="fade-left" delay={0.2} className="w-full lg:w-144.25">
         <Image
           src="/images/Frame 11.png"
           alt="About Image"
@@ -53,7 +56,7 @@ function FirstSections() {
           height={540}
           className="h-full w-full"
         />
-      </div>
+      </Reveal>
     </div>
   )
 }
@@ -68,33 +71,35 @@ function SecondSections() {
     <div
       className={`flex flex-col items-center justify-between gap-10 lg:flex-row-reverse lg:gap-15.75`}
     >
-      <div className="w-full max-w-143.5 space-y-8 md:space-y-10">
-        <h2
-          className="heading-m"
-          style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
-        >
-          Create &amp; Manage Courses Easily.
-        </h2>
-        <p className="body-l text-neutral-700">
-          <span className="font-bold">ByteSpace</span> supports individuals or
-          entities in the creation, publication, and administration of
-          educational courses.
-        </p>
-        <ul className="space-y-4 label-l">
-          {[
-            "Share Your Expertise",
-            "Monetize Your Passion",
-            "Flexibility and Autonomy",
-            "Build a Community",
-          ].map((item, index) => (
-            <li key={index} className="flex items-center gap-2">
-              <Checkbox /> {item}
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Reveal direction="fade-left" delay={0.05} className="w-full max-w-143.5">
+        <div className="space-y-8 md:space-y-10">
+          <h2
+            className="heading-m"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
+          >
+            Create &amp; Manage Courses Easily.
+          </h2>
+          <p className="body-l text-neutral-700">
+            <span className="font-bold">ByteSpace</span> supports individuals or
+            entities in the creation, publication, and administration of
+            educational courses.
+          </p>
+          <ul className="space-y-4 label-l">
+            {[
+              "Share Your Expertise",
+              "Monetize Your Passion",
+              "Flexibility and Autonomy",
+              "Build a Community",
+            ].map((item, index) => (
+              <li key={index} className="flex items-center gap-2">
+                <Checkbox /> {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Reveal>
 
-      <div className="w-full lg:w-144.25">
+      <Reveal direction="fade-right" delay={0.2} className="w-full lg:w-144.25">
         <Image
           src="/images/Frame 12.png"
           alt="About Image"
@@ -102,7 +107,7 @@ function SecondSections() {
           height={540}
           className="h-full w-full"
         />
-      </div>
+      </Reveal>
     </div>
   )
 }
@@ -127,3 +132,4 @@ export default function About() {
     </section>
   )
 }
+

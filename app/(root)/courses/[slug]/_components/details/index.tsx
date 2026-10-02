@@ -12,12 +12,14 @@ import RatingSummary from "./rating-summery"
 import CheckedFillIcon from "@/svgs/Style=Filled-2.svg"
 import VideoCam from "@/svgs/video-cam.svg";
 import RatingStar from "@/svgs/Style=Filled-1.svg"
+import Reveal from "@/components/shared/reveal"
 
 export default function Details() {
   return (
     <section>
-      <div className="section-container py-10 md:py-15.5">
-        <div className="w-full lg:max-w-180">
+      <Reveal direction="fade-up" delay={0.05}>
+        <div className="section-container py-10 md:py-15.5">
+          <div className="w-full lg:max-w-180">
           <Tabs defaultValue={DETAILS.tabs[0].value}>
             <TabsList>
               {DETAILS.tabs.map((tab) => (
@@ -191,8 +193,9 @@ export default function Details() {
               </TabsContent>
             </TabsContents>
           </Tabs>
+          </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   )
 }
