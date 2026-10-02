@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Reveal from "@/components/shared/reveal"
 
 /**
  * The Testimonial section.
@@ -37,43 +38,51 @@ export default function Testimonial() {
       className="bg-cover bg-no-repeat pt-10 pb-8 md:pt-18.5 md:pb-14.25"
     >
       <div className="section-container">
-        <div className="flex w-full flex-col items-start gap-8 md:flex-row md:items-center md:justify-between md:gap-10.75">
-          <h2
-            className="mx-auto max-w-144.25 heading-m text-center md:mx-0 md:text-left"
-            style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
-          >
-            Discover What Our Community Is Saying
-          </h2>
+        <Reveal direction="fade-up" delay={0.05}>
+          <div className="flex w-full flex-col items-start gap-8 md:flex-row md:items-center md:justify-between md:gap-10.75">
+            <h2
+              className="mx-auto max-w-144.25 heading-m text-center md:mx-0 md:text-left"
+              style={{ fontSize: "clamp(1.5rem, 4vw, 44px)" }}
+            >
+              Discover What Our Community Is Saying
+            </h2>
 
-          <p className="mx-auto max-w-145 body-l text-neutral-700 text-center md:mx-0 md:text-left" style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}>
-            At ByteSpace, our vibrant community of learners and creators is at
-            the heart of what we do. Hear directly from those who have
-            experienced the transformative journey of learning and creating on
-            our platform. Explore testimonials that reflect the diverse
-            perspectives of enthusiastic learners and accomplished creators.
-          </p>
-        </div>
+            <p className="mx-auto max-w-145 body-l text-neutral-700 text-center md:mx-0 md:text-left" style={{ fontSize: "clamp(0.875rem, 2vw, 18px)" }}>
+              At ByteSpace, our vibrant community of learners and creators is at
+              the heart of what we do. Hear directly from those who have
+              experienced the transformative journey of learning and creating on
+              our platform. Explore testimonials that reflect the diverse
+              perspectives of enthusiastic learners and accomplished creators.
+            </p>
+          </div>
+        </Reveal>
 
         <div className="mt-18">
           <div className="grid grid-cols-1 gap-10.25 lg:grid-cols-3">
             {testimonials.map((testimonial, index) => (
-              <div
+              <Reveal
                 key={index}
-                className="space-y-6 rounded-[24px] bg-white p-6"
+                direction="fade-up"
+                delay={0.1 + index * 0.12}
+                duration={0.6}
               >
-                <Image
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  width={80}
-                  height={80}
-                  className="size-20 rounded-full"
-                />
-                <div className="">
-                  <h3 className="heading-xs">{testimonial.name}</h3>
-                  <p className="body-l text-primary">{testimonial.title}</p>
+                <div
+                  className="space-y-6 rounded-[24px] bg-white p-6"
+                >
+                  <Image
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    width={80}
+                    height={80}
+                    className="size-20 rounded-full"
+                  />
+                  <div className="">
+                    <h3 className="heading-xs">{testimonial.name}</h3>
+                    <p className="body-l text-primary">{testimonial.title}</p>
+                  </div>
+                  <p className="body-l text-neutral-700">"{testimonial.quote}"</p>
                 </div>
-                <p className="body-l text-neutral-700">"{testimonial.quote}"</p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -81,3 +90,4 @@ export default function Testimonial() {
     </section>
   )
 }
+
