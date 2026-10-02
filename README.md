@@ -57,7 +57,3 @@ Ensure you have the following installed:
 - `bun run lint`: Lints the codebase using ESLint.
 - `bun run format`: Formats code using Prettier.
 - `bun run typecheck`: Runs TypeScript compiler check without emitting files.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow the established code style and ensure all checks pass before submitting a pull request.
